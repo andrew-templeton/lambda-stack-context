@@ -1,0 +1,30 @@
+{
+  "name": "lambda-stack-context",
+  "version": "0.0.1",
+  "description": "Grab CloudFormation stack context from Lambdas by setting the Description field to the AWS::StackId",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew-templeton/lambda-stack-context.git"
+  },
+  "keywords": [
+    "cloudformation",
+    "lambda",
+    "stack",
+    "context",
+    "outputs",
+    "resources"
+  ],
+  "devDependencies": {
+    "aws-sdk": "2.2.29"
+  },
+  "author": "Andrew Templeton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrew-templeton/lambda-stack-context/issues"
+  },
+  "homepage": "https://github.com/andrew-templeton/lambda-stack-context#readme"
+}
